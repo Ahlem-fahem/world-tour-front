@@ -74,7 +74,7 @@
                     font-bold
                     text-sm"
       >
-        Si vous avez déjà un compte
+        Vous avez déjà un compte ?
         <a href="/"
               class="text-blue-600
                        underline
@@ -92,7 +92,7 @@
                   justify-center"
     >
       <span class="text-teal-900 font-bold mb-5">Ou</span>
-      <span class="text-xs font-bold">Se connecter avec</span>
+      <span class="text-xs font-bold">S'inscrire avec</span>
       <div class="flex space-x-5 mt-5">
         <i class="fab fa-facebook fa-2x text-blue-800 cursor-pointer"></i>
         <i class="fab fa-google fa-2x text-red-700 cursor-pointer"></i>
