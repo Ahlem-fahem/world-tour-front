@@ -1,16 +1,18 @@
 <template>
   <div class="rounded-lg
-                flex
-                w-7/12
-                bg-gray-500
-                shadow
-                bg-opacity-30
-                h-80 py-10"
+              flex
+              w-7/12
+              bg-gray-500
+              shadow
+              mx-auto
+              mt-16
+              bg-opacity-30
+              h-80 py-10"
   >
     <div class="w-4/6
-                  px-10
-                  border-r-2
-                  border-r-teal-900"
+                px-10
+                border-r-2
+                border-r-teal-900"
     >
       <h1 class="text-center
                    text-teal-900
@@ -73,13 +75,14 @@
                     text-sm"
       >
         vous n'avez pas de compte ?
-        <span class="text-blue-600
-                       underline
-                       cursor-pointer
-                       hover:text-blue-500"
+        <a  href="/register"
+            class="text-blue-600
+                  underline
+                  cursor-pointer
+                  hover:text-blue-500"
         >
-            inscrivez vous
-          </span>
+          inscrivez vous
+        </a>
       </div>
     </div>
     <div class="w-2/6
@@ -98,3 +101,13 @@
     </div>
   </div>
 </template>
+
+<style>
+  body {
+    background-image: url('/src/assets/bg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:100% 100%;
+    background-size: cover;
+  }
+</style>
