@@ -1,5 +1,6 @@
 <template>
-  <div class="rounded-lg
+  <div class="background_image
+              rounded-lg
               flex
               w-7/12
               bg-gray-500
@@ -86,10 +87,10 @@
       </div>
     </div>
     <div class="w-2/6
-                  text-center
-                  flex flex-col
-                  items-center
-                  justify-center"
+                text-center
+                flex flex-col
+                items-center
+                justify-center"
     >
       <span class="text-teal-900 font-bold mb-5">Ou</span>
       <span class="text-xs font-bold">Se connecter avec</span>
@@ -103,7 +104,7 @@
 </template>
 
 <style>
-  body {
+  background_image {
     background-image: url('/src/assets/bg2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
