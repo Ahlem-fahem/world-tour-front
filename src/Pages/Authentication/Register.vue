@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto bg-white">
     <div style="background-image: url('/src/assets/bg2.jpg')"
-         class="flex flex-col justify-around
+         class="flex
                 bg-cover bg-center
                 h-screen"
     >
@@ -9,6 +9,7 @@
                   flex
                   w-7/12
                   bg-gray-500
+                  mt-16
                   shadow
                   mx-auto
                   bg-opacity-30
