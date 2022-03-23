@@ -1,16 +1,16 @@
 <template>
-  <div style="background-image: url('/src/assets/bg2.jpg');
-               background-repeat: no-repeat;
-               background-attachment: fixed;
-               background-position:100% 100%;">
-    <div class="h-screen">
+  <div class="container mx-auto bg-white">
+    <div style="background-image: url('/src/assets/bg2.jpg')"
+         class="flex flex-col justify-around
+                bg-cover bg-center
+                h-screen"
+    >
       <div class="rounded-lg
                   flex
                   w-7/12
                   bg-gray-500
                   shadow
                   mx-auto
-                  mt-16
                   bg-opacity-30
                   h-80 py-10"
       >
@@ -108,13 +108,3 @@
     </div>
   </div>
 </template>
-
-<style>
-  background_image {
-    background-image: url('/src/assets/bg2.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position:100% 100%;
-    background-size: cover;
-  }
-</style>
