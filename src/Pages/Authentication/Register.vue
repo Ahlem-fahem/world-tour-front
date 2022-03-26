@@ -123,6 +123,9 @@
             <span class="absolute left-3 top-1.5 text-black"><i class="fas fa-unlock-alt"></i></span>
           </label>
         </div>
+        <div class="text-center mb-5">
+          <button class="bg-blue-700 py-1 px-5 font-medium text-white rounded-lg">S'inscrire</button>
+        </div>
         <div class="text-center
                     font-bold
                     text-sm"
@@ -149,7 +152,7 @@
       >
         <span class="text-teal-900 font-bold mb-1 lg:mb-5">Ou</span>
         <span class="text-xs font-bold">S'inscrire avec</span>
-        <div class="flex space-x-5 mt-5">
+        <div class="flex space-x-5 mt-5 bg-white py-2 px-2 rounded bg-opacity-50">
           <i class="fab fa-facebook fa-2x text-blue-800 cursor-pointer"></i>
           <i class="fab fa-google fa-2x text-red-700 cursor-pointer"></i>
           <i class="fab fa-twitter fa-2x text-blue-500 cursor-pointer"></i>
