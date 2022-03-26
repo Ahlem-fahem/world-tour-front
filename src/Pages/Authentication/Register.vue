@@ -32,9 +32,11 @@
                     space-y-2
                     mb-5"
         >
-          <label>
+          <label class="relative">
             <input type="text"
+                   placeholder="Username"
                    class="h-10
+                          pl-10
                           shadow-xl
                           border border-gray-500
                           hover:bg-gray-300
@@ -46,6 +48,7 @@
                           rounded-lg
                           w-full p-4"
             />
+            <span class="absolute left-3 top-1.5"><i class="fas fa-user text-black"></i></span>
           </label>
         </div>
         <div class="flex
@@ -53,9 +56,11 @@
                     space-y-2
                     mb-5"
         >
-          <label>
-            <input type="email"
+          <label class="relative">
+            <input type="text"
+                   placeholder="Your Email"
                    class="h-10
+                          pl-10
                           shadow-xl
                           border border-gray-500
                           hover:bg-gray-300
@@ -67,6 +72,7 @@
                           rounded-lg
                           w-full p-4"
             />
+            <span class="absolute left-3 top-1.5 text-black"><i class="fas fa-envelope"></i></span>
           </label>
         </div>
         <div class="flex
@@ -74,9 +80,11 @@
                     space-y-2
                     mb-5"
         >
-          <label>
-            <input type="password"
+          <label class="relative">
+            <input type="text"
+                   placeholder="Password"
                    class="h-10
+                          pl-10
                           shadow-xl
                           border border-gray-500
                           hover:bg-gray-300
@@ -88,6 +96,7 @@
                           rounded-lg
                           w-full p-4"
             />
+            <span class="absolute left-3 top-1.5"><i class="fas fa-key"></i></span>
           </label>
         </div>
         <div class="flex
@@ -95,9 +104,11 @@
                     space-y-2
                     mb-5"
         >
-          <label>
-            <input type="password"
+          <label class="relative">
+            <input type="text"
+                   placeholder="Reset Password"
                    class="h-10
+                          pl-10
                           shadow-xl
                           border border-gray-500
                           hover:bg-gray-300
@@ -109,6 +120,7 @@
                           rounded-lg
                           w-full p-4"
             />
+            <span class="absolute left-3 top-1.5 text-black"><i class="fas fa-unlock-alt"></i></span>
           </label>
         </div>
         <div class="text-center
@@ -116,8 +128,8 @@
                     text-sm"
         >
           Vous avez déjà un compte ?
-          <a  href="/register"
-              class="text-blue-600
+          <a href="/register"
+             class="text-blue-600
                      underline
                      cursor-pointer
                      hover:text-blue-500"
