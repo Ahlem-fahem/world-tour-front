@@ -13,7 +13,7 @@
                 mt-10 lg:mt-24
                 mx-auto
                 bg-opacity-40 lg:bg-opacity-30
-                h-4/6 sm:h-3/5 md:h-2/3 lg:h-1/2
+                h-max
                 py-7 sm:py-5 md:py-10 lg:py-6"
     >
       <div class="w-full lg:w-4/6
