@@ -13,13 +13,12 @@
                 mt-10 lg:mt-24
                 mx-auto
                 bg-opacity-40 lg:bg-opacity-30
-                h-4/6 md:h-1/2 py-10"
+                h-4/6 sm:h-3/5 md:h-2/3 lg:h-1/2
+                py-7 sm:py-5 md:py-10"
     >
       <div class="w-full lg:w-4/6
                   px-4 py-2 lg:py-0 lg:px-10
-                  border-b-2 lg:border-b-0
-                  lg:border-r-2
-                  border-b-teal-900 lg:border-r-teal-900"
+                  lg:border-r-2 lg:border-r-teal-900"
       >
         <h1 class="text-center
                    text-teal-900
@@ -92,8 +91,10 @@
           </a>
         </div>
       </div>
-      <div class="w-full lg:w-2/6
-                  mt-2 lg:mt-0
+      <div class="w-4/6 mx-auto lg:w-2/6
+                  mt-5
+                  border-t-2 border-t-teal-900 lg:border-t-0
+                  pt-2 lg:pt-0
                   text-center
                   flex flex-col
                   items-center
