@@ -128,7 +128,7 @@
                     text-sm"
         >
           Vous avez déjà un compte ?
-          <a href="/register"
+          <a href="/"
              class="text-blue-600
                      underline
                      cursor-pointer
