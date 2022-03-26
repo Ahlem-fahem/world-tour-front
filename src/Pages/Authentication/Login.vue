@@ -82,7 +82,7 @@
                     text-xs md:text-sm"
         >
           Vous n'avez pas un compte ?
-          <a href="/"
+          <a href="/register"
              class="text-blue-600
                      underline
                      cursor-pointer
