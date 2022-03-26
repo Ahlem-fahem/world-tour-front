@@ -74,9 +74,12 @@
             <span class="absolute left-3 top-1.5"><i class="fas fa-key"></i></span>
           </label>
         </div>
+        <div class="text-center mb-5">
+          <button class="bg-blue-700 py-1 px-5 text-white rounded-lg">Se connecter</button>
+        </div>
         <div class="text-center
                     font-bold
-                    text-sm"
+                    text-xs md:text-sm"
         >
           Vous n'avez pas un compte ?
           <a href="/"
