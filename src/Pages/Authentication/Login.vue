@@ -1,20 +1,19 @@
 <template>
   <div style="background-image: url('/src/assets/bg2.jpg')"
-       class="flex
+       class="flex justify-around
               bg-cover bg-center
               h-screen"
   >
-    <div class="flex
+    <div class="flex justify-around
                 flex-col lg:flex-row
+                mt-10 lg:mt-40
                 rounded-lg
-                w-11/12 md:w-9/12 lg:w-3/4
+                w-11/12 md:w-9/12 lg:w-3/5
                 bg-gray-500
                 shadow
-                mt-10 lg:mt-24
-                mx-auto
                 bg-opacity-40 lg:bg-opacity-30
-                h-4/6 sm:h-3/5 md:h-2/3 lg:h-1/2
-                py-7 sm:py-5 md:py-10"
+                h-max
+                py-7 sm:py-5 md:py-10 lg:py-6"
     >
       <div class="w-full lg:w-4/6
                   px-4 py-2 lg:py-0 lg:px-10
@@ -28,27 +27,27 @@
           Envie d'aller voir ailleurs ?
         </h1>
         <div class="flex
-                      flex-col
-                      space-y-2
-                      mb-3"
+                    flex-col
+                    space-y-2
+                    mb-5"
         >
-            <span class="text-gray-700
-                         font-bold"
-            >
-              Email :
-            </span>
-          <label>
-            <input type="email"
+          <label class="relative">
+            <input type="text"
+                   placeholder="Your Email"
                    class="h-10
+                          pl-10
                           shadow-xl
                           border border-gray-500
+                          hover:bg-gray-300
                           bg-rose-50
-                          focus:bg-white
+                          focus:bg-gray-300
                           focus:bg-opacity-75
                           bg-opacity-50
+                          hover:bg-opacity-50
                           rounded-lg
                           w-full p-4"
             />
+            <span class="absolute left-3 top-1.5 text-black"><i class="fas fa-envelope"></i></span>
           </label>
         </div>
         <div class="flex
@@ -56,38 +55,37 @@
                     space-y-2
                     mb-5"
         >
-            <span class="text-gray-700
-                         font-bold"
-            >
-              Password :
-            </span>
-          <label>
-            <input type="password"
+          <label class="relative">
+            <input type="text"
+                   placeholder="Password"
                    class="h-10
+                          pl-10
                           shadow-xl
-                          border
-                          border-gray-500
+                          border border-gray-500
+                          hover:bg-gray-300
                           bg-rose-50
-                          focus:bg-white
+                          focus:bg-gray-300
                           focus:bg-opacity-75
                           bg-opacity-50
+                          hover:bg-opacity-50
                           rounded-lg
                           w-full p-4"
             />
+            <span class="absolute left-3 top-1.5"><i class="fas fa-key"></i></span>
           </label>
         </div>
         <div class="text-center
-                      font-bold
-                      text-sm"
+                    font-bold
+                    text-sm"
         >
-          vous n'avez pas de compte ?
-          <a  href="/register"
-              class="text-blue-600
+          Vous n'avez pas un compte ?
+          <a href="/"
+             class="text-blue-600
                      underline
                      cursor-pointer
                      hover:text-blue-500"
           >
-            inscrivez vous
+            Inscrivez-vous ici
           </a>
         </div>
       </div>
