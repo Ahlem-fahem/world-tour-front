@@ -4,17 +4,16 @@
               bg-cover bg-center
               h-screen"
   >
-    <div class="flex
-                flex-col lg:flex-row
+    <div class="flex flex-col lg:flex-row
                 rounded-lg
                 w-11/12 md:w-9/12 lg:w-3/5
                 bg-gray-500
                 shadow
-                mt-10 lg:mt-24
+                mt-7 sm:mt-10 lg:mt-24
                 mx-auto
                 bg-opacity-40 lg:bg-opacity-30
-                h-max
-                py-7 sm:py-5 md:py-10 lg:py-6"
+                py-7 sm:py-5 md:py-10 lg:py-6
+                h-max"
     >
       <div class="w-full lg:w-4/6
                   px-4 py-2 lg:py-0 lg:px-10
@@ -123,22 +122,29 @@
             <span class="absolute left-3 top-1.5 text-black"><i class="fas fa-unlock-alt"></i></span>
           </label>
         </div>
-        <div class="text-center mb-5">
-          <button class="bg-blue-700 py-1 px-5 font-medium text-white rounded-lg">S'inscrire</button>
+        <div class="flex items-center justify-center mb-5
+                    font-bold
+                    text-xs"
+        >
+          <input type="checkbox" class="mr-2">
+          J'accepte toutes les conditions d'utilisation
         </div>
         <div class="text-center
-                    font-bold
-                    text-sm"
+                    font-bold mb-5
+                    text-xs"
         >
           Vous avez déjà un compte ?
           <a href="/"
              class="text-blue-600
-                     underline
-                     cursor-pointer
-                     hover:text-blue-500"
+                    underline
+                    cursor-pointer
+                    hover:text-blue-500"
           >
             Connectez vous ici
           </a>
+        </div>
+        <div class="text-center">
+          <button class="bg-blue-700 py-1 px-5 font-medium text-white rounded-lg">S'inscrire</button>
         </div>
       </div>
       <div class="w-4/6 mx-auto lg:w-2/6
@@ -152,7 +158,7 @@
       >
         <span class="text-teal-900 font-bold mb-1 lg:mb-5">Ou</span>
         <span class="text-xs font-bold">S'inscrire avec</span>
-        <div class="flex space-x-5 mt-5 bg-white py-2 px-2 rounded bg-opacity-50">
+        <div class="flex space-x-5 mt-5">
           <i class="fab fa-facebook fa-2x text-blue-800 cursor-pointer"></i>
           <i class="fab fa-google fa-2x text-red-700 cursor-pointer"></i>
           <i class="fab fa-twitter fa-2x text-blue-500 cursor-pointer"></i>
